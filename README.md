@@ -14,7 +14,8 @@ This is one of my favorite dishes, and a lot of people who eat this tell me it's
 - 1 teaspoon fresh ginger
 - 3.5 teaspoons chicken tikka masala seasoning ([MDH](https://mdhspices.com/product/mdh-chicken-masala/) or [Shan](https://www.shanfoods.com/product/recipe-mixes/curry/chicken-masala/) brand)
 - 1/4 teaspoon Kashmiri chili (or 1/4 teaspoon ground red chili powder)
-- 1 teaspoon of salt3 tablespoons butter for sauteing / cooking the chicken
+- 1 teaspoon of salt
+- 3 tablespoons butter for sauteing / cooking the chicken
 
 ### Sauce
 
