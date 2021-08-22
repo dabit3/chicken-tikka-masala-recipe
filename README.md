@@ -49,6 +49,6 @@ This is one of my favorite dishes, and a lot of people who eat this tell me it's
 
 - Once the tomatoes are breaking down, use a masher to crush the tomatoes and onions into a paste / sauce with no large pieces left
 
-- Add the heavy cream and the brown sugar, stir everything in. Finally, add the chicken and let it sit for 5 - 10 minutes. From here, check the consistency and decide to your taste to add more cream or water.
+- Add the heavy cream and the brown sugar, stir everything in. Finally, add the chicken and let it simmer for 5 - 10 minutes. From here, check the consistency and decide to your taste to add more cream or water.
 
 Serve with butter rice or naan bread. 🚀
