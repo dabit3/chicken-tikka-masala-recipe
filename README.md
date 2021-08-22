@@ -43,7 +43,7 @@ This is one of my favorite dishes, and a lot of people who eat this tell me it's
 
 - In a large and tall cooking pot, melt the butter and fry the onions until soft while stirring occasionally.
 
-- Add ginger and garlic for just about 30 seconds while continuing to stir. Then add chicken tikka masala seasoning, pepper, and salt.
+- Add ginger and garlic and let cook for just about 30 seconds while continuing to stir. Then add chicken tikka masala seasoning, pepper, and salt.
 
 - Add in tomatoes and tomato sauce. Let this simmer until the tomatoes start to break down.
 
