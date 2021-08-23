@@ -24,7 +24,8 @@ This is one of my favorite dishes, and a lot of people who eat this tell me it's
 - 1 1/2 tablespoons garlic finely grated
 - 1 teaspoon ginger finely grated
 - 3.5 teaspoons chicken tikka masala seasoning (MDH or shan brand)
-- 12-14 oz  tomato puree / tomato sauce2 medium fresh tomatoes diced
+- 12-14 oz  tomato puree / tomato sauce
+- 2 medium fresh tomatoes diced
 - 1/4 - 1/2 teaspoon ground red chili powder
 - 1 teaspoon salt
 - 1 1/4 cups of heavy or thickened cream
