@@ -4,9 +4,9 @@
 
 This is one of my favorite dishes, and a lot of people who eat this tell me it's one of their favorite meals as well. They often ask for the recipe, so I decided to open source it. This will probably evolve over time as I improve and experiment with it. Enjoy!
 
-## Ingredients
+## Ingredients ℹ️
 
-### Chicken marinade
+### Chicken marinade 🐔
 
 - 28 oz boneless and skinless chicken thighs or tenders cut into 1 inch cubes or so
 - 1 cup plain yogurt
@@ -17,7 +17,7 @@ This is one of my favorite dishes, and a lot of people who eat this tell me it's
 - 1 teaspoon of salt
 - 3 tablespoons butter for sauteing / cooking the chicken
 
-### Sauce
+### Sauce 🍲
 
 - 5-8 tablespoons butter
 - 3 small onions (or 1 - 1.5 large onion) finely diced
@@ -32,15 +32,15 @@ This is one of my favorite dishes, and a lot of people who eat this tell me it's
 - 1 teaspoon brown sugar
 - 1/4 cup water if needed
 
-## Instructions
+## Instructions ℹ️
 
-### The chicken
+### The chicken 🐔
 
 - Put the chicken in a bowl with all of the ingredients of the chicken marinade, stir everything together well and let it sit for 10 minutes to a few hours
 
 - When ready to cook: in a frying pan, add butter and saute the chicken until it is fully cooked and browned on each side. Set to the side until later.
 
-### The gravy
+### The gravy 🥣
 
 - In a large and tall cooking pot, melt the butter and fry the onions until soft while stirring occasionally.
 
