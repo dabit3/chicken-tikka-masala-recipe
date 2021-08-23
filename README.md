@@ -1,4 +1,4 @@
-## Nader's Chicken Tikka Masala recipe
+# Nader's Chicken Tikka Masala recipe
 
 ![Pictures of Nader's Chicken Tikka Masala](pictures.jpg)
 
