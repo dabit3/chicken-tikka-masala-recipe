@@ -17,12 +17,12 @@ class IngredientRequirement {
 		return $this->ingredient_class;
 	}
 
-	public function getMin(): float|int
+	public function getMinAmount(): float|int
 	{
 		return $this->min;
 	}
 
-	public function getMax(): float|int|null
+	public function getMaxAmount(): float|int|null
 	{
 		return $this->max;
 	}

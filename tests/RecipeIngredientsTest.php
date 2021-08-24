@@ -10,6 +10,7 @@ use Ctm\Ingredients\BonelessAndSkinlessChickenThingsOrTenders;
 use Ctm\Ingredients\BrownSugar;
 use Ctm\Ingredients\Butter;
 use Ctm\Ingredients\ChickenTikkaMasalaSeasoning;
+use Ctm\Ingredients\FinelyDicedLargeOnion;
 use Ctm\Ingredients\FinelyDicedSmallOnion;
 use Ctm\Ingredients\FinelyGratedGarlic;
 use Ctm\Ingredients\FinelyGratedGinger;
@@ -33,7 +34,7 @@ class RecipeIngredientsTest extends TestCase {
 		$this->expectException(AmountTooLowException::class);
 
 		(new Recipe)->addIngredientForMarinade(new BonelessAndSkinlessChickenThingsOrTenders(10))
-			->prepareMeal();
+			->prepareMarinade();
 	}
 
 	public function testIngredientAmountTooHigh(): void
@@ -41,7 +42,7 @@ class RecipeIngredientsTest extends TestCase {
 		$this->expectException(AmountTooHighException::class);
 
 		(new Recipe)->addIngredientForMarinade(new BonelessAndSkinlessChickenThingsOrTenders(100))
-			->prepareMeal();
+			->prepareMarinade();
 	}
 
 	public function testMissingIngredient(): void
@@ -49,6 +50,16 @@ class RecipeIngredientsTest extends TestCase {
 		$this->expectException(MissingIngredientException::class);
 
 		(new Recipe)->prepareMeal();
+	}
+	
+	public function testReplacementIngredient()
+	{
+		$this->expectException(AmountTooHighException::class);
+		$this->expectExceptionMessageMatches('/^Too much of Finely Diced Large Onion/');
+
+		(new Recipe)->addIngredientForSauce(new Butter(6))
+			->addIngredientForSauce(new FinelyDicedLargeOnion(10)) // default is FinelyDicedSmallOnion
+			->prepareSauce();
 	}
 	
 	public function testAllIngredients(): void

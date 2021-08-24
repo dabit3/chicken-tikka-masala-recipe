@@ -5,12 +5,5 @@ namespace Ctm\Units;
 
 trait Piece {
 
-	use Unit {
-		Unit::__construct as parentConstruct;
-	}
-
-	public function __construct(int $amount)
-	{
-		$this->parentConstruct($amount);
-	}
+	use Unit;
 }

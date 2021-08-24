@@ -154,22 +154,38 @@ final class Recipe {
 		$requirements = $this->requirements[$type];
 		foreach ($requirements as $requirement)
 		{
+			$isReplacementIngredient = false;
+
 			/** @var Ingredient|null $ingredient */
 			$ingredient = $this->ingredients[$type][$requirement->getIngredientClass()] ?? null;
 
 			if (!$ingredient) {
 				$ingredient = $this->ingredients[$type][$requirement->getReplacementIngredient()?->getIngredientClass()] ?? null;
+
+				if ($ingredient) {
+					$isReplacementIngredient = true;
+				}
 			}
 
 			if (!$ingredient) {
 				throw new MissingIngredientException($requirement->getIngredientClass()." not added to {$type} ingredients");
 			}
 
-			if ($ingredient->getAmount() < $requirement->getMin()) {
-				throw new AmountTooLowException("Add at least {$requirement->getMin()} of {$ingredient->getName()} to the {$type}");
+			$requirementMinAmount = !$isReplacementIngredient ? $requirement->getMinAmount() : $requirement->getReplacementIngredient()->getMinAmount();
+
+			if ($ingredient->getAmount() < $requirementMinAmount) {
+				throw new AmountTooLowException("Add at least {$requirementMinAmount} of {$ingredient->getName()} to the {$type}");
 			}
 
-			$requirementMaxAmount = $requirement->getMax() ?? $requirement->getMin();
+			if (!$isReplacementIngredient)
+			{
+				$requirementMaxAmount = $requirement->getMaxAmount() ?? $requirement->getMinAmount();
+			}
+			else
+			{
+				$requirementMaxAmount = $requirement->getReplacementIngredient()->getMaxAmount() ?? $requirement->getReplacementIngredient()->getMinAmount();
+			}
+
 			if ($ingredient->getAmount() > $requirementMaxAmount) {
 				throw new AmountTooHighException("Too much of {$ingredient->getName()} - max allowed is {$requirementMaxAmount}");
 			}
