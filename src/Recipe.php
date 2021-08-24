@@ -42,10 +42,13 @@ final class Recipe {
 		self::MARINADE => [],
 	];
 
+	private bool $marinadePrepared = false;
+	private bool $saucePrepared = false;
+
 	public function __construct()
 	{
 		$this->requirements = [
-			self::SAUCE => [
+			self::MARINADE => [
 				new IngredientRequirement(BonelessAndSkinlessChickenThingsOrTenders::class, 28),
 				new IngredientRequirement(PlainYogurt::class, 1),
 				new IngredientRequirement(MincedGarlic::class, 1 + 1/2),
@@ -58,13 +61,13 @@ final class Recipe {
 				new IngredientRequirement(Salt::class, 1),
 				new IngredientRequirement(Butter::class, 3),
 			],
-			self::MARINADE => [
+			self::SAUCE => [
 				new IngredientRequirement(Butter::class, 5, 8),
 				new IngredientRequirement(
 					FinelyDicedSmallOnion::class, 3, null,
 					new IngredientRequirement(FinelyDicedLargeOnion::class, 1, 1.5)
 				),
-				new IngredientRequirement(FinelyGratedGarlic::class, 1/2),
+				new IngredientRequirement(FinelyGratedGarlic::class, 1 + 1/2),
 				new IngredientRequirement(FinelyGratedGinger::class, 1),
 				new IngredientRequirement(ChickenTikkaMasalaSeasoning::class, 3.5,),
 				new IngredientRequirement(
@@ -101,10 +104,47 @@ final class Recipe {
 		return $this;
 	}
 
-	public function cook(): bool
+	public function prepareMeal(): bool
 	{
-		$this->validateIngredients(self::SAUCE);
-		$this->validateIngredients(self::MARINADE);
+		$this->prepareMarinade();
+
+		$this->prepareSauce();
+
+		$this->finish();
+
+		return true;
+	}
+
+	public function prepareMarinade(): bool
+	{
+		if ( ! $this->marinadePrepared) {
+			$this->validateIngredients(self::MARINADE);
+
+			// @todo really prepare it
+			$this->marinadePrepared = true;
+		}
+
+		return $this->marinadePrepared;
+	}
+
+	public function prepareSauce(): bool
+	{
+		if ( ! $this->saucePrepared) {
+			$this->validateIngredients(self::SAUCE);
+
+			// @todo really prepare it
+
+			$this->saucePrepared = true;
+		}
+
+		return $this->saucePrepared;
+	}
+
+	private function finish(): bool
+	{
+		// @todo
+
+		\sleep(1);
 
 		return true;
 	}
@@ -126,7 +166,7 @@ final class Recipe {
 			}
 
 			if ($ingredient->getAmount() < $requirement->getMin()) {
-				throw new AmountTooLowException("Add at least {$requirement->getMin()} of {$ingredient->getName()}");
+				throw new AmountTooLowException("Add at least {$requirement->getMin()} of {$ingredient->getName()} to the {$type}");
 			}
 
 			$requirementMaxAmount = $requirement->getMax() ?? $requirement->getMin();
