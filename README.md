@@ -48,7 +48,7 @@ This is one of my favorite dishes, and a lot of people who eat this tell me it's
 
 - Add in tomatoes and tomato sauce. Let this simmer until the tomatoes start to break down.
 
-- Once the tomatoes are breaking down, use a masher to crush the tomatoes and onions into a paste / sauce with no large pieces left
+- Once the tomatoes are breaking down, use a masher to crush the tomatoes and onions into a paste / sauce with no large pieces left. You can also use a blender.
 
 - Add the heavy cream and the brown sugar, stir everything in.
 
