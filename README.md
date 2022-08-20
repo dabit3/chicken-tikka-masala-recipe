@@ -10,7 +10,7 @@ This is one of my favorite dishes, and a lot of people who eat this tell me it's
 
 - 28 oz boneless and skinless chicken thighs or tenders cut into 1 inch cubes or so
 - 1 cup plain yogurt
-- 1 tablespoon minced garlic
+- 1.5 tablespoons minced garlic
 - 1 teaspoon minced fresh ginger
 - 3.5 teaspoons chicken tikka masala seasoning ([MDH](https://mdhspices.com/product/mdh-chicken-masala/), [Shan](https://www.shanfoods.com/product/recipe-mixes/curry/chicken-masala/), or [Rasoi Magic](https://www.rasoimagic.com/products) brand) 
 - 1/3 teaspoon Kashmiri chili (or 1/4 teaspoon ground red chili powder)
