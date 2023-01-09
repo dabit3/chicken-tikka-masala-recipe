@@ -55,3 +55,10 @@ This is one of my favorite dishes, and a lot of people who eat this tell me it's
 - Finally, add the chicken and let it simmer for 5 - 10 minutes. From here, check the consistency and decide to your taste to add more cream or water.
 
 Serve with butter rice or naan bread. 🚀
+
+Addendum:
+Folks getting confused with oz & cup measurements, do this
+- 1 oz = 29.5 ml (round off to 30ml)
+- 1 cup = 237 ml
+You need not be accurate, on-point with measurements. A slight variation wouldn't matter much. 
+
