@@ -55,3 +55,22 @@ This is one of my favorite dishes, and a lot of people who eat this tell me it's
 - Finally, add the chicken and let it simmer for 5 - 10 minutes. From here, check the consistency and decide to your taste to add more cream or water.
 
 Serve with butter rice or naan bread. 🚀
+
+## Grilled Chicken Tikka 
+
+### Ingredients
+- 1 pound boneless chicken 
+- 1 teaspoon or less salt (adjust to taste)
+- 1/2 to 2 teaspoons Kashmiri Red chilli powder (for less spicy version, use 1/2 teaspoon, can substitute cayenne pepper)
+- 1/4 teaspoon turmeric
+- 1/3 to 1/2 teaspoon cumin powder
+- 1 teaspoon coriander powder
+- 1 to 1 ¼ teaspoon garam masala
+- 1 teaspoon chaat masala (skip if you don’t have)
+- 1/2 teaspoon black pepper crushed or powder
+- 1 tablespoon lemon juice (optional, skip if your yogurt is sour)
+- 3/4 tablespoon minced fresh ginger
+- 1 tablespoon minced fresh garlic 
+- 1 tablespoon oil (mustard oil if you have, or olive oil)
+- 1/2 cup Greek yogurt (hung curd)
+- 1 to 2 tablespoons butter for brushing
